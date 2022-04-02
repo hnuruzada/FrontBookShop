@@ -1,0 +1,1767 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- Owl carousel min css -->
+    <link rel="stylesheet" href="./Assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Assets/owl.theme.default.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="./Assets/style/style.css">
+    <title>Home Page</title>
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <div class="header-1">
+
+            <a href="#" class="logos"> <svg class="book-shelf" xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid" viewBox="0 0 84 94" height="94" width="84">
+                    <path fill="none"
+                        d="M37.612 92.805L4.487 73.71c-2.75-1.587-4.45-4.52-4.45-7.687L.008 27.877c-.003-3.154 1.676-6.063 4.405-7.634L37.558 1.167c2.73-1.57 6.096-1.566 8.835.013l33.124 19.096c2.75 1.586 4.45 4.518 4.45 7.686l.028 38.146c.002 3.154-1.677 6.063-4.406 7.634L46.445 92.818c-2.73 1.57-6.096 1.566-8.834-.013z" />
+                    <g class="book-shelf__book book-shelf__book--one" fill-rule="evenodd">
+                        <path fill="#5199fc"
+                            d="M31 29h4c1.105 0 2 .895 2 2v29c0 1.105-.895 2-2 2h-4c-1.105 0-2-.895-2-2V31c0-1.105.895-2 2-2z" />
+                        <path fill="#afd7fb"
+                            d="M34 36h-2c-.552 0-1-.448-1-1s.448-1 1-1h2c.552 0 1 .448 1 1s-.448 1-1 1zm-2 1h2c.552 0 1 .448 1 1s-.448 1-1 1h-2c-.552 0-1-.448-1-1s.448-1 1-1z" />
+                    </g>
+                    <g class="book-shelf__book book-shelf__book--two" fill-rule="evenodd">
+                        <path fill="#ff9868"
+                            d="M39 34h6c1.105 0 2 .895 2 2v24c0 1.105-.895 2-2 2h-6c-1.105 0-2-.895-2-2V36c0-1.105.895-2 2-2z" />
+                        <path fill="#d06061" d="M42 38c1.105 0 2 .895 2 2s-.895 2-2 2-2-.895-2-2 .895-2 2-2z" />
+                    </g>
+                    <g class="book-shelf__book book-shelf__book--three" fill-rule="evenodd">
+                        <path fill="#ff5068"
+                            d="M49 32h2c1.105 0 2 .86 2 1.92v25.906c0 1.06-.895 1.92-2 1.92h-2c-1.105 0-2-.86-2-1.92V33.92c0-1.06.895-1.92 2-1.92z" />
+                        <path fill="#d93368"
+                            d="M50 35c.552 0 1 .448 1 1v2c0 .552-.448 1-1 1s-1-.448-1-1v-2c0-.552.448-1 1-1z" />
+                    </g>
+                    <g fill-rule="evenodd">
+                        <path class="book-shelf__shelf" fill="#ae8280"
+                            d="M21 60h40c1.105 0 2 .895 2 2s-.895 2-2 2H21c-1.105 0-2-.895-2-2s.895-2 2-2z" />
+                        <path fill="#855f6d"
+                            d="M51.5 67c-.828 0-1.5-.672-1.5-1.5V64h3v1.5c0 .828-.672 1.5-1.5 1.5zm-21 0c-.828 0-1.5-.672-1.5-1.5V64h3v1.5c0 .828-.672 1.5-1.5 1.5z" />
+                    </g>
+                </svg>
+                <h4><span>BOOK</span><span>SHOP</span></h4>
+            </a>
+
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            
+            <div  class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart basket" onclick="openNav()"><span class="count">2</span> 
+                </a>
+                <a href=""><i class="fas fa-user"></i></a>
+                
+                <a href=""><i class="fas fa-user-plus"></i></a>
+            </div>
+
+        </div>
+        
+
+        <div class="header-2">
+            <nav class="navbars">
+                <a href="#home">home</a>
+                <a href="#books">books</a>
+                <a href="#authors">authors</a>
+                <a href="#blogs">blogs</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+        </div>
+
+    </header>
+    <div id="mySidenav" class="bags sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+         <div class="bag">
+            <div class="product">
+                <div class="image">
+                    <img src="./Assets/images/book12.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h5>Book Name</h5>
+                    <span>2 x $100</span>
+                </div>
+                <div class="remove">
+                    <i class="las la-times"></i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="./Assets/images/book12.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h5>Book Name</h5>
+                    <span>2 x $100</span>
+                </div>
+                <div class="remove">
+                    <i class="las la-times"></i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="./Assets/images/book12.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h5>Book Name</h5>
+                    <span>2 x $100</span>
+                </div>
+                <div class="remove">
+                    <i class="las la-times"></i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="./Assets/images/book12.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h5>Book Name</h5>
+                    <span>2 x $100</span>
+                </div>
+                <div class="remove">
+                    <i class="las la-times"></i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="./Assets/images/book12.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h5>Book Name</h5>
+                    <span>2 x $100</span>
+                </div>
+                <div class="remove">
+                    <i class="las la-times"></i>
+                </div>
+            </div>
+            <div class="product">
+                <div class="image">
+                    <img src="./Assets/images/book12.jpg" alt="">
+                </div>
+                <div class="info">
+                    <h5>Book Name</h5>
+                    <span>2 x $100</span>
+                </div>
+                <div class="remove">
+                    <i class="las la-times"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="view-cart-checkout">
+            <div class="total-price">
+                <h5>Total Price</h5>
+                <span>$400</span>
+            </div>
+            <div class="view-check">
+                <button class="view" type="submit">View Cart</button>
+                <button class="check" type="submit">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- header section ends -->
+
+    <!-- bottom navbar  -->
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#books" class="fas fa-book"></a>
+        <a href="#authors" class="fas fa-feather-alt"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+        <a href="#contact" class="far fa-address-book"></a>
+
+    </nav>
+
+    
+
+    <main>
+        <section class="home" id="home" style="background: url(./Assets/images/banner-bg.jpg) no-repeat;">
+
+            <div class="row">
+
+                <div class="content">
+                    <h3>upto 75% off</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt nostrum accusamus. Nam
+                        alias sit necessitatibus, aliquid ex minima at!</p>
+                    <a href="#" class="btn">shop now</a>
+                </div>
+
+                <div class="swiper books-slider">
+                    <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide"><img src="./Assets/images/book15.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./Assets/images/book12.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./Assets/images/book16.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./Assets/images/book17.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./Assets/images/book18.jpg" alt=""></a>
+                        <a href="#" class="swiper-slide"><img src="./Assets/images/book19.jpg" alt=""></a>
+                    </div>
+                    <img src="./Assets/images/stand.png" class="stand" alt="">
+                </div>
+
+            </div>
+
+        </section>
+        <section class="icons-container">
+
+            <div class="icons">
+                <i class="fas fa-shipping-fast"></i>
+                <div class="content">
+                    <h3>free shipping</h3>
+                    <p>order over $100</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-lock"></i>
+                <div class="content">
+                    <h3>secure payment</h3>
+                    <p>100 secure payment</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-redo-alt"></i>
+                <div class="content">
+                    <h3>easy returns</h3>
+                    <p>10 days returns</p>
+                </div>
+            </div>
+
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <div class="content">
+                    <h3>24/7 support</h3>
+                    <p>call us anytime</p>
+                </div>
+            </div>
+
+        </section>
+        <section class="bestSellers">
+            <div class="bestSeller-Title">
+                <h1 class="heading"> <span>best sellers</span> </h1>
+            </div>
+            <div class="owl-carousel owl-theme carusel">
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book13.webp" alt=""></div>
+                                        <div class="title book-1" style="background-color: red;"></div>
+                                        <div class="book-back book-1" style="background-color: #DABEA5;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/pro_pbid_4217056_180x.webp" alt=""></div>
+                                        <div class="title book-1" style="background-color: #AE371A;"></div>
+                                        <div class="book-back book-1" style="background-color: #AE371A;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/pro_pbid_20223_180x.webp" alt=""></div>
+                                        <div class="title book-1" style="background-color: orange;"></div>
+                                        <div class="book-back book-1" style="background-color: orange;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book13.webp" alt=""></div>
+                                        <div class="title book-1" style="background-color: aqua;"></div>
+                                        <div class="book-back book-1" style="background-color: orange;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book11.jpg" alt=""></div>
+                                        <div class="title book-1" style="background-color: #3EADE2;"></div>
+                                        <div class="book-back book-1" style="background-color: #3EADE2;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book12.jpg" alt=""></div>
+                                        <div class="title book-1" style="background-color: #816D6F;"></div>
+                                        <div class="book-back book-1" style="background-color: #816D6F;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book14.jpg" alt=""></div>
+                                        <div class="title book-1" style="background-color:#E9B61D;"></div>
+                                        <div class="book-back book-1" style="background-color: #1D2856;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book15.jpg" alt=""></div>
+                                        <div class="title book-1" style="background-color: #D3D800;"></div>
+                                        <div class="book-back book-1" style="background-color: #D3D800;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book16.jpg" alt=""></div>
+                                        <div class="title book-1" style="background-color: #A4BFD5;"></div>
+                                        <div class="book-back book-1" style="background-color: #A4BFD5;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book17.jpg" alt=""></div>
+                                        <div class="title book-1" style="background-color: red;"></div>
+                                        <div class="book-back book-1" style="background-color: red;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book18.jpg" alt=""></div>
+                                        <div class="title book-1" style="background-color: #D64354;"></div>
+                                        <div class="book-back book-1" style="background-color: #D64354;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/book19.jpg" alt=""></div>
+                                        <div class="title book-1" style="background-color: #F5D98B;"></div>
+                                        <div class="book-back book-1" style="background-color: #F5D98B;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <div class="card-header">
+                            <div class="wrap">
+                                <div class="perspective">
+                                    <div class="book-wrap">
+                                        <div class="book book-1"><img class="book-main-img"
+                                                src="./Assets/images/NDIwNTA_3d_180x.webp" alt=""></div>
+                                        <div class="title book-1" style="background-color: #AE371A;"></div>
+                                        <div class="book-back book-1" style="background-color: #AE371A;">
+                                            <div class="text">
+                                                <h3>The Great Fall</h3>
+                                                <p>
+                                                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+                                                        earum doloremque aliquam culpa dolor nostrum consequatur quas
+                                                        dicta?</span>
+                                                    <span>Blanditiis alias, omnis eveniet corporis ipsam at odio, iste,
+                                                        expedita praesentium ullam voluptas similique distinctio?</span>
+                                                    <span>This is the great fall</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="title">
+                                <a href="">
+                                    <h3>Book Name</h3>
+                                </a>
+                            </div>
+                            <div class="author-name">
+                                <a href=""><span>Author Name</span></a>
+                            </div>
+                            <div class="price">
+                                <span><span>$</span>100</span>
+                                <p class="campaign">$100</p>
+                            </div>
+                            <div class="add-to-cart">
+                                <button type="submit">Add To Cart</button>
+                                <a href=""><i class="far fa-heart"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter" style="background:url(./Assets/images/letter-bg.jpg) no-repeat;">
+            
+            <form action="">
+                <h3>subscribe for latest updates</h3>
+                <input type="email" name="" placeholder="enter your email" id="" class="box">
+                <input type="submit" value="subscribe" class="btn">
+            </form>
+        
+        </section>
+        <section class="new-book">
+            <div class="container">
+                <div class="section-title">
+                    <h1 class="heading"> <span>new books</span> </h1>
+                </div>
+                <div class="component">
+
+                    <ul class="align">
+                        <li class="col col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <figure class='book'>
+
+                                
+
+                                <ul class='hardcover_front'>
+                                    <li>
+                                        <img src="./Assets/images/book15.jpg" alt="" width="100%" height="100%">
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+
+                               
+
+                                <ul class="page">
+                                    <li>
+                                        <p style="font-size: 8px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <div class="rsp-design">
+                                            <h1>Book Name</h1>
+                                            <span>By Marcela Paz</span>
+                                            <div class="price">
+                                                <span>$100</span>
+                                                <span class="campaign"></span>
+                                            </div>
+                                        </div>
+                                        <a class="btn" href="#">Add To Cart</a>
+
+
+                                    </li>
+                                    <li>
+                                        <h5>Chapter3</h5>
+                                        <p style="font-size: 8px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter2</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt
+                                            provident, harum nobis eius pariatur veniam quos non possimus placeat
+                                            obcaecati iure. Fugit maiores maxime tempore consectetur nesciunt aperiam id
+                                            voluptatum! Culpa, rerum quisquam impedit possimus explicabo ut enim,
+                                            reiciendis natus, dolore hic deserunt asperiores. Temporibus, reprehenderit
+                                            dolorum! Fugiat facilis praesentium explicabo vitae optio aliquam nemo nam
+                                            dolor. Iusto, veniam! Minus enim, laboriosam architecto, beatae dolorem
+                                            doloremque earum deserunt eligendi quas autem fugit? Quasi ab beatae nisi
+                                            fugiat repellendus, dolore sit itaque ullam laudantium nesciunt. Distinctio
+                                            eaque reiciendis possimus commodi ex, labore facere expedita ipsa
+                                            dignissimos aliquam quo explicabo sequi!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter1</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quidem
+                                            accusantium atque accusamus qui ratione beatae, esse doloribus maxime
+                                            provident rem ipsam dolores dolorem numquam alias fugiat aperiam, sapiente
+                                            sequi, repudiandae ex. Labore, quas veritatis? Doloribus alias tempore fuga
+                                            debitis repellendus repellat quaerat inventore illo ad quam quo aperiam
+                                            numquam eius quae, quibusdam cumque molestiae exercitationem unde placeat
+                                            optio vitae. Molestias, maxime molestiae, odit dolorum vel esse aspernatur
+                                            tempora officia nostrum perspiciatis excepturi ipsa eveniet in magnam
+                                            pariatur beatae repellat optio, provident dolores. Placeat qui unde pariatur
+                                            cumque, consequatur explicabo! Eos, recusandae tempore? Deleniti, molestias
+                                            aperiam ipsa blanditiis quos fugiat.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                
+
+                                <ul class='hardcover_back'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+
+                                </ul>
+                                <ul class='book_spine'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+                                <figcaption>
+                                    <h1>Book Name</h1>
+                                    <span>By Marcela Paz</span>
+                                    <div class="price">
+                                        <span>$100</span>
+                                        <span class="campaign"></span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="col col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <figure class='book'>
+
+                               
+
+                                <ul class='hardcover_front'>
+                                    <li>
+                                        <img src="./Assets/images/book16.jpg" alt="" width="100%" height="100%">
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+
+                                
+
+                                <ul class="page">
+                                    <li>
+                                        <p style="font-size: 8px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <div class="rsp-design">
+                                            <h1>Book Name</h1>
+                                            <span>By Marcela Paz</span>
+                                            <div class="price">
+                                                <span>$100</span>
+                                                <span class="campaign"></span>
+                                            </div>
+                                        </div>
+                                        <a class="btn" href="#">Add To Cart</a>
+
+
+                                    </li>
+                                    <li>
+                                        <h5>Chapter3</h5>
+                                        <p style="font-size: 8px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter2</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt
+                                            provident, harum nobis eius pariatur veniam quos non possimus placeat
+                                            obcaecati iure. Fugit maiores maxime tempore consectetur nesciunt aperiam id
+                                            voluptatum! Culpa, rerum quisquam impedit possimus explicabo ut enim,
+                                            reiciendis natus, dolore hic deserunt asperiores. Temporibus, reprehenderit
+                                            dolorum! Fugiat facilis praesentium explicabo vitae optio aliquam nemo nam
+                                            dolor. Iusto, veniam! Minus enim, laboriosam architecto, beatae dolorem
+                                            doloremque earum deserunt eligendi quas autem fugit? Quasi ab beatae nisi
+                                            fugiat repellendus, dolore sit itaque ullam laudantium nesciunt. Distinctio
+                                            eaque reiciendis possimus commodi ex, labore facere expedita ipsa
+                                            dignissimos aliquam quo explicabo sequi!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter1</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quidem
+                                            accusantium atque accusamus qui ratione beatae, esse doloribus maxime
+                                            provident rem ipsam dolores dolorem numquam alias fugiat aperiam, sapiente
+                                            sequi, repudiandae ex. Labore, quas veritatis? Doloribus alias tempore fuga
+                                            debitis repellendus repellat quaerat inventore illo ad quam quo aperiam
+                                            numquam eius quae, quibusdam cumque molestiae exercitationem unde placeat
+                                            optio vitae. Molestias, maxime molestiae, odit dolorum vel esse aspernatur
+                                            tempora officia nostrum perspiciatis excepturi ipsa eveniet in magnam
+                                            pariatur beatae repellat optio, provident dolores. Placeat qui unde pariatur
+                                            cumque, consequatur explicabo! Eos, recusandae tempore? Deleniti, molestias
+                                            aperiam ipsa blanditiis quos fugiat.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                
+
+                                <ul class='hardcover_back'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+
+                                </ul>
+                                <ul class='book_spine'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+                                <figcaption>
+                                    <h1>Book Name</h1>
+                                    <span>By Marcela Paz</span>
+                                    <div class="price">
+                                        <span>$100</span>
+                                        <span class="campaign"></span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="col col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <figure class='book'>
+
+                                
+
+                                <ul class='hardcover_front'>
+                                    <li>
+                                        <img src="./Assets/images/book17.jpg" alt="" width="100%" height="100%">
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+
+                               
+
+                                <ul class="page">
+                                    <li>
+                                        <p style="font-size: 8px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <div class="rsp-design">
+                                            <h1>Book Name</h1>
+                                            <span>By Marcela Paz</span>
+                                            <div class="price">
+                                                <span>$100</span>
+                                                <span class="campaign"></span>
+                                            </div>
+                                        </div>
+                                        <a class="btn" href="#">Add To Cart</a>
+
+
+                                    </li>
+                                    <li>
+                                        <h5>Chapter3</h5>
+                                        <p style="font-size: 8px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter2</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt
+                                            provident, harum nobis eius pariatur veniam quos non possimus placeat
+                                            obcaecati iure. Fugit maiores maxime tempore consectetur nesciunt aperiam id
+                                            voluptatum! Culpa, rerum quisquam impedit possimus explicabo ut enim,
+                                            reiciendis natus, dolore hic deserunt asperiores. Temporibus, reprehenderit
+                                            dolorum! Fugiat facilis praesentium explicabo vitae optio aliquam nemo nam
+                                            dolor. Iusto, veniam! Minus enim, laboriosam architecto, beatae dolorem
+                                            doloremque earum deserunt eligendi quas autem fugit? Quasi ab beatae nisi
+                                            fugiat repellendus, dolore sit itaque ullam laudantium nesciunt. Distinctio
+                                            eaque reiciendis possimus commodi ex, labore facere expedita ipsa
+                                            dignissimos aliquam quo explicabo sequi!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter1</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quidem
+                                            accusantium atque accusamus qui ratione beatae, esse doloribus maxime
+                                            provident rem ipsam dolores dolorem numquam alias fugiat aperiam, sapiente
+                                            sequi, repudiandae ex. Labore, quas veritatis? Doloribus alias tempore fuga
+                                            debitis repellendus repellat quaerat inventore illo ad quam quo aperiam
+                                            numquam eius quae, quibusdam cumque molestiae exercitationem unde placeat
+                                            optio vitae. Molestias, maxime molestiae, odit dolorum vel esse aspernatur
+                                            tempora officia nostrum perspiciatis excepturi ipsa eveniet in magnam
+                                            pariatur beatae repellat optio, provident dolores. Placeat qui unde pariatur
+                                            cumque, consequatur explicabo! Eos, recusandae tempore? Deleniti, molestias
+                                            aperiam ipsa blanditiis quos fugiat.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                
+
+                                <ul class='hardcover_back'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+
+                                </ul>
+                                <ul class='book_spine'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+                                <figcaption>
+                                    <h1>Book Name</h1>
+                                    <span>By Marcela Paz</span>
+                                    <div class="price">
+                                        <span>$100</span>
+                                        <span class="campaign"></span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="col col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <figure class='book'>
+
+                                
+
+                                <ul class='hardcover_front'>
+                                    <li>
+                                        <img src="./Assets/images/book18.jpg" alt="" width="100%" height="100%">
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+
+                                
+
+                                <ul class="page">
+                                    <li>
+                                        <p style="font-size: 8px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <div class="rsp-design">
+                                            <h1>Book Name</h1>
+                                            <span>By Marcela Paz</span>
+                                            <div class="price">
+                                                <span>$100</span>
+                                                <span class="campaign"></span>
+                                            </div>
+                                        </div>
+
+                                        <a class="btn" href="#">Add To Cart</a>
+
+
+                                    </li>
+                                    <li>
+                                        <h5>Chapter3</h5>
+                                        <p style="font-size: 8px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter2</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt
+                                            provident, harum nobis eius pariatur veniam quos non possimus placeat
+                                            obcaecati iure. Fugit maiores maxime tempore consectetur nesciunt aperiam id
+                                            voluptatum! Culpa, rerum quisquam impedit possimus explicabo ut enim,
+                                            reiciendis natus, dolore hic deserunt asperiores. Temporibus, reprehenderit
+                                            dolorum! Fugiat facilis praesentium explicabo vitae optio aliquam nemo nam
+                                            dolor. Iusto, veniam! Minus enim, laboriosam architecto, beatae dolorem
+                                            doloremque earum deserunt eligendi quas autem fugit? Quasi ab beatae nisi
+                                            fugiat repellendus, dolore sit itaque ullam laudantium nesciunt. Distinctio
+                                            eaque reiciendis possimus commodi ex, labore facere expedita ipsa
+                                            dignissimos aliquam quo explicabo sequi!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter1</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quidem
+                                            accusantium atque accusamus qui ratione beatae, esse doloribus maxime
+                                            provident rem ipsam dolores dolorem numquam alias fugiat aperiam, sapiente
+                                            sequi, repudiandae ex. Labore, quas veritatis? Doloribus alias tempore fuga
+                                            debitis repellendus repellat quaerat inventore illo ad quam quo aperiam
+                                            numquam eius quae, quibusdam cumque molestiae exercitationem unde placeat
+                                            optio vitae. Molestias, maxime molestiae, odit dolorum vel esse aspernatur
+                                            tempora officia nostrum perspiciatis excepturi ipsa eveniet in magnam
+                                            pariatur beatae repellat optio, provident dolores. Placeat qui unde pariatur
+                                            cumque, consequatur explicabo! Eos, recusandae tempore? Deleniti, molestias
+                                            aperiam ipsa blanditiis quos fugiat.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <!-- Back -->
+
+                                <ul class='hardcover_back'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+
+                                </ul>
+                                <ul class='book_spine'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+                                <figcaption>
+                                    <h1>Book Name</h1>
+                                    <span>By Marcela Paz</span>
+                                    <div class="price">
+                                        <span>$100</span>
+                                        <span class="campaign"></span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="col col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <figure class='book'>
+
+                                
+
+                                <ul class='hardcover_front'>
+                                    <li>
+                                        <img src="./Assets/images/book17.jpg" alt="" width="100%" height="100%">
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+
+                               
+
+                                <ul class="page">
+                                    <li>
+                                        <p style="font-size: 8px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <div class="rsp-design">
+                                            <h1>Book Name</h1>
+                                            <span>By Marcela Paz</span>
+                                            <div class="price">
+                                                <span>$100</span>
+                                                <span class="campaign"></span>
+                                            </div>
+                                        </div>
+                                        <a class="btn" href="#">Add To Cart</a>
+
+
+                                    </li>
+                                    <li>
+                                        <h5>Chapter3</h5>
+                                        <p style="font-size: 8px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter2</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt
+                                            provident, harum nobis eius pariatur veniam quos non possimus placeat
+                                            obcaecati iure. Fugit maiores maxime tempore consectetur nesciunt aperiam id
+                                            voluptatum! Culpa, rerum quisquam impedit possimus explicabo ut enim,
+                                            reiciendis natus, dolore hic deserunt asperiores. Temporibus, reprehenderit
+                                            dolorum! Fugiat facilis praesentium explicabo vitae optio aliquam nemo nam
+                                            dolor. Iusto, veniam! Minus enim, laboriosam architecto, beatae dolorem
+                                            doloremque earum deserunt eligendi quas autem fugit? Quasi ab beatae nisi
+                                            fugiat repellendus, dolore sit itaque ullam laudantium nesciunt. Distinctio
+                                            eaque reiciendis possimus commodi ex, labore facere expedita ipsa
+                                            dignissimos aliquam quo explicabo sequi!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter1</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quidem
+                                            accusantium atque accusamus qui ratione beatae, esse doloribus maxime
+                                            provident rem ipsam dolores dolorem numquam alias fugiat aperiam, sapiente
+                                            sequi, repudiandae ex. Labore, quas veritatis? Doloribus alias tempore fuga
+                                            debitis repellendus repellat quaerat inventore illo ad quam quo aperiam
+                                            numquam eius quae, quibusdam cumque molestiae exercitationem unde placeat
+                                            optio vitae. Molestias, maxime molestiae, odit dolorum vel esse aspernatur
+                                            tempora officia nostrum perspiciatis excepturi ipsa eveniet in magnam
+                                            pariatur beatae repellat optio, provident dolores. Placeat qui unde pariatur
+                                            cumque, consequatur explicabo! Eos, recusandae tempore? Deleniti, molestias
+                                            aperiam ipsa blanditiis quos fugiat.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                
+
+                                <ul class='hardcover_back'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+
+                                </ul>
+                                <ul class='book_spine'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+                                <figcaption>
+                                    <h1>Book Name</h1>
+                                    <span>By Marcela Paz</span>
+                                    <div class="price">
+                                        <span>$100</span>
+                                        <span class="campaign"></span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="col col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <figure class='book'>
+
+                                
+
+                                <ul class='hardcover_front'>
+                                    <li>
+                                        <img src="./Assets/images/book18.jpg" alt="" width="100%" height="100%">
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+
+                                
+
+                                <ul class="page">
+                                    <li>
+                                        <p style="font-size: 8px;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <div class="rsp-design">
+                                            <h1>Book Name</h1>
+                                            <span>By Marcela Paz</span>
+                                            <div class="price">
+                                                <span>$100</span>
+                                                <span class="campaign"></span>
+                                            </div>
+                                        </div>
+
+                                        <a class="btn" href="#">Add To Cart</a>
+
+
+                                    </li>
+                                    <li>
+                                        <h5>Chapter3</h5>
+                                        <p style="font-size: 8px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Dignissimos error debitis, reprehenderit
+                                            sapiente, soluta labore obcaecati animi, laborum
+                                            voluptates odio facilis sunt cum doloremque
+                                            reiciendis ipsam eius similique consequuntur.
+                                            Rerum, sint quibusdam sequi, nihil eum quia
+                                            voluptatibus reprehenderit blanditiis, commodi
+                                            fugit labore repudiandae eveniet reiciendis eius
+                                            et voluptas amet sit!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter2</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum deserunt
+                                            provident, harum nobis eius pariatur veniam quos non possimus placeat
+                                            obcaecati iure. Fugit maiores maxime tempore consectetur nesciunt aperiam id
+                                            voluptatum! Culpa, rerum quisquam impedit possimus explicabo ut enim,
+                                            reiciendis natus, dolore hic deserunt asperiores. Temporibus, reprehenderit
+                                            dolorum! Fugiat facilis praesentium explicabo vitae optio aliquam nemo nam
+                                            dolor. Iusto, veniam! Minus enim, laboriosam architecto, beatae dolorem
+                                            doloremque earum deserunt eligendi quas autem fugit? Quasi ab beatae nisi
+                                            fugiat repellendus, dolore sit itaque ullam laudantium nesciunt. Distinctio
+                                            eaque reiciendis possimus commodi ex, labore facere expedita ipsa
+                                            dignissimos aliquam quo explicabo sequi!
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h5>Chapter1</h5>
+                                        <p style="font-size: 6px;padding-right: 2%;">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi quidem
+                                            accusantium atque accusamus qui ratione beatae, esse doloribus maxime
+                                            provident rem ipsam dolores dolorem numquam alias fugiat aperiam, sapiente
+                                            sequi, repudiandae ex. Labore, quas veritatis? Doloribus alias tempore fuga
+                                            debitis repellendus repellat quaerat inventore illo ad quam quo aperiam
+                                            numquam eius quae, quibusdam cumque molestiae exercitationem unde placeat
+                                            optio vitae. Molestias, maxime molestiae, odit dolorum vel esse aspernatur
+                                            tempora officia nostrum perspiciatis excepturi ipsa eveniet in magnam
+                                            pariatur beatae repellat optio, provident dolores. Placeat qui unde pariatur
+                                            cumque, consequatur explicabo! Eos, recusandae tempore? Deleniti, molestias
+                                            aperiam ipsa blanditiis quos fugiat.
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                <!-- Back -->
+
+                                <ul class='hardcover_back'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+
+                                </ul>
+                                <ul class='book_spine'>
+                                    <li>
+
+
+                                    </li>
+                                    <li>
+
+                                    </li>
+                                </ul>
+                                <figcaption>
+                                    <h1>Book Name</h1>
+                                    <span>By Marcela Paz</span>
+                                    <div class="price">
+                                        <span>$100</span>
+                                        <span class="campaign"></span>
+                                    </div>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </section>
+        <section class="our-blogs" id="blogs">
+
+            <div class="blog-title">
+                <h1 class="heading"> <span>our blogs</span> </h1>
+            </div>
+        
+            <div class="swiper blogs-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./Assets/images/blog-1.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./Assets/images/blog-2.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./Assets/images/blog-3.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./Assets/images/blog-4.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box">
+                        <div class="image">
+                            <img src="./Assets/images/blog-5.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>blog title goes here</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, odio.</p>
+                            <a href="#" class="btn">read more</a>
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+    </main>
+
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our locations</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> baku </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> sumgait </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> İsmaily </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> ganca </a>
+
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> books </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> authors </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            </div>
+
+
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +123-456-7890 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> h.nuruzade@gmail.com </a>
+                <img src="./Assets/images/worldmap.png" class="map" alt="">
+            </div>
+
+        </div>
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+
+        <div class="credit"> created by <span>mr. Hasan Nuruzade</span> | all rights reserved! </div>
+
+    </section>
+
+    
+
+    <!-- loader  -->
+
+    <div class="loader-container">
+    <img src="./Assets/images/loader-img.gif" alt="">
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./Assets/owl.carousel.min.js"></script>
+    
+
+
+    <!-- custom js file link  -->
+    <script src="./Assets/js/script.js"></script>
+
+</body>
+
+</html>
